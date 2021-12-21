@@ -1,0 +1,234 @@
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Rubik', sans-serif;
+  background-color: hsl(226, 43%, 10%);
+}
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.report-card {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 12px;
+  color: #fff;
+  margin-right: 4rem;
+}
+
+.report-heading {
+  background-color: hsl(246, 80%, 60%);
+  height: 20rem;
+  border-radius: 12px;
+  padding: 2.2rem 1.4rem;
+  padding: 2.2rem 1.5rem 1rem 1.5rem;
+}
+
+.person-title {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin-top: 0.8rem;
+}
+
+.report-footer {
+  height: 8rem;
+  padding: 1.2rem 1rem 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.person-title {
+  margin-top: 2.2rem;
+}
+
+.time:first-of-type {
+  margin: 0;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+.time {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.person-img {
+  width: 40%;
+}
+
+.card {
+  width: 15rem;
+  margin-bottom: 1.4rem;
+  margin-right: 2rem;
+}
+
+.card-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 3.5rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+
+.card-content {
+  height: 11.5rem;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 12px;
+  gap: 0.8rem;
+  transform: translateY(-1rem);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.2rem;
+}
+
+.ellipsis {
+  margin-right: 1.2rem;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  font-size: 2.8rem;
+}
+
+.heading {
+  font-size: 1.2rem;
+}
+
+.last-week {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.username {
+  margin-top: 0.8rem;
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+
+@media (max-width: 40em) {
+  .container {
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .report-card {
+    width: 80%;
+    margin: 2rem;
+    margin-left: 0;
+  }
+
+  .report-heading {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    padding: 2rem 1.5rem;
+  }
+  .report-info {
+    margin-left: 1.5rem;
+  }
+
+  .person-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  .person-title {
+    margin-top: 0.8rem;
+  }
+  .username-div {
+    display: flex;
+  }
+
+  .username {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+  }
+
+  .report-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .time {
+    margin: 0;
+  }
+
+  .card {
+    height: 8rem;
+    width: 30rem;
+    margin-bottom: 8rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

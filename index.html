@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="report-card">
+        <div class="report-heading">
+          <img class="person-img" src="./images/image-jeremy.png" alt="" />
+          <div class="report-info">
+            <p class="person-title">Report for</p>
+            <div class="username-div">
+              <p class="username">Jeremy</p>
+              <p class="username">Robson</p>
+            </div>
+          </div>
+        </div>
+        <div class="report-footer">
+          <p id="daily-btn" class="time disabled">Daily</p>
+          <p id="weekly-btn" class="time active">Weekly</p>
+          <p id="monthly-btn" class="time disabled">Monthly</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="card-top work">
+            <img src="./images/icon-work.svg" alt="" />
+          </div>
+          <div class="card-content"></div>
+        </div>
+        <div class="card">
+          <div class="card-top play">
+            <img src="./images/icon-play.svg" alt="" />
+          </div>
+          <div class="card-content"></div>
+        </div>
+        <div class="card">
+          <div class="card-top study">
+            <img src="./images/icon-study.svg" alt="" />
+          </div>
+          <div class="card-content"></div>
+        </div>
+        <div class="card">
+          <div class="card-top exercise">
+            <img src="./images/icon-exercise.svg" alt="" />
+          </div>
+          <div class="card-content">
+            <div class="title">
+              <div class="row"></div>
+            </div>
+            <p class="total"></p>
+            <p class="last-week"></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-top social">
+            <img src="./images/icon-social.svg" alt="" />
+          </div>
+          <div class="card-content"></div>
+        </div>
+        <div class="card">
+          <div class="card-top self-care">
+            <img src="./images/icon-self-care.svg" alt="" />
+          </div>
+          <div class="card-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">@JimCoder_Dev</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
