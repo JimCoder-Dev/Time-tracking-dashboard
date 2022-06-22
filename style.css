@@ -231,4 +231,10 @@ p {
     justify-content: space-between;
     align-items: center;
   }
+  
+  .last-week {
+    margin-right: 1rem;
+  }
+  
+  
 }
